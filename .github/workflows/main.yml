@@ -15,8 +15,8 @@ jobs:
     env:
       # Setting the defaults up front
       LATEST_NODE: 14
-      DEFAULT_IMAGE: nodered/node-red
-      DEV_IMAGE: nodered/node-red-dev
+      DEFAULT_IMAGE: rob-mccann/node-red
+      DEV_IMAGE: rob-mccann/node-red-dev
     runs-on: ubuntu-latest
 
     strategy:
